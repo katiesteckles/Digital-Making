@@ -20,3 +20,7 @@ These notes were compiled to assist the 'Digital Making' Skills Day organised by
 ## Advice and links
 
 * [Where to look for help](help.md)
+
+## Key Rules
+
+0. Do not be on fire.
