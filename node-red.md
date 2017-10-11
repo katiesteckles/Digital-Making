@@ -32,5 +32,14 @@ Time for an upgrade - inject and debug nodes will be really useful when designin
 
 To run this flow you'll need a few nodes that don't come with the basic install. We've installed them for you, but if your doing this tutorial after the event. You can install them easliy through the hamburger menu in Node-RED, click it and then click __Manage Palettes__. Click the __install__ tab and search for `node-red-node-pi-neopixel` and for `node-red-dashboard` then install. New Nodes will show up in the palette - if they don't a restart might be needed. To get the NeoPixels working you'll also need to install some drivers outside of Node-RED. Head to a terminal window and type `curl -sS get.pimoroni.com/unicornhat | bash`.  
 
+Brill - we're ready. Three steps and you'll have a beautiful little light you can control with a colour picker.
+1. Wire up a neopixel  
+Connect the -VE wire to a GND pin on the Pi, connect the DATA wire to GPIO 18 and finally the +VE wire to a 5V output.  
+2. Set up your input
+Drag the __color picker__ node from the palette, it's under the heading __dashboard__ and place it on your workspace. The node needs a little setup before it will dance in the way we want it to. Double click the node to open its properties.  
+We need to create a place for the color picker to sit, so cick the pencil to the right of the __group__ section, then do the same for the __tab__ section. This will populate boxes with __default__ settings. Click __update__ and then __update__ again. Back in the __color picker__ isettings box, change the size to 6x6, and check the box for __always show picker__. Click __done__ then __deploy__ the flow.  
+Open a new browser windown and navigate to the User Interface (UI) __localhost:1880/ui__ you'll see your colour picker - woop! 
+3. Add the beautiful colour
+Drag a __neopixel__ node onto the workspace. It needs minimal setup, just double click and set the number of pixels to the number of LEDs you have (1). Now connect the two nodes and __deploy__. Head to the UI and move the colour picker and marvel at the pretty colours. 
 
 ## Actviity 2: A better use for Twitter
