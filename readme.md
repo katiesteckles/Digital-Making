@@ -7,7 +7,7 @@ These notes were compiled to assist the 'Digital Making' Skills Day organised by
 ## Structure of the Day
 
 * Python
-* Micro:Bit
+* [Micro:Bit](microbit.md)
 * Node-RED and the outside world
 * Things to explore
 
