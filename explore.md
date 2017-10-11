@@ -47,3 +47,17 @@ Useful documentation:
 [Start here](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera). But it's probably a good idea to use the Thonny editor you started with rather than IDLE, as suggested in the tutorial.
 
 The 'final' code (which you might like to explore) is [something like this](code/camera_effects.py). You could try controlling it with some buttons (from the previous example) to set the desired effect?
+
+## Micro:Bit puppet
+
+This is a prototype made by a student, which uses the Micro:Bit's internal accelerometers to control three servos.
+
+## Scrollphat / ScrollphatHD
+
+This is a neat little LED display for Raspberry Pis. You'll find example Python code in `~/Pimoroni/`.
+
+## UnicornHAT HD
+
+My eyes!
+
+Loads of NeoPixels, and a Python library to make them work (in `~/Pimoroni/`). There are some oddities, however. Oh, and don't stare at the lights for too long.
