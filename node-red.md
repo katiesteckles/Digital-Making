@@ -5,12 +5,17 @@ Want your Twitter feed to control your bedroom lamp? Or you FitBit to switch off
 ## Accessing Node-Red
 General Node-RED guidance is to fresh install the latest version onto your Pi, rather than just using the version included with Raspbian. Head to your terminal and enter:  
 `bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)`  
+
 You can make Node-RED start at boot (when you switch the Pi on) by typing:  
 `sudo systemctl enable nodered.service`  
+
 Now head to your Pi's web browser and navigate to localhost:1880 and marvel at the beauty of the graphical interface.  
+
 ## Creating your first flow
 Node-RED uses the term __flows__ to describe a set of inputs and output linked by wires. Usually you'll get a flow to perform a series of functions that make up your project (your web-enable rainbow machine for example).  
-On the lef tof the screen you'll see your __palette__ which contains all your input, output and function Nodes organised by type. Your __workspace__ is in the centre of the screen, you'll drags nodes here to create flows. And finally on the right, you'll find you __Info panel__, from here you can __deploy__ new flows, find out __info__ about the nodes you are using and __debug__ your flows to check where they are going wrong (that won't happen - promise).  
+
+On the lef tof the screen you'll see your __palette__ which contains all your input, output and function Nodes organised by type. Your __workspace__ is in the centre of the screen, you'll drags nodes here to create flows. And finally on the right, you'll find your __info panel__, from here you can __deploy__ new flows, find out __info__ about the nodes you are using and __debug__ your flows to check where they are going wrong (that won't happen - promise).  
+
 ### Inputs, Outputs and Debugging  
 Enough talk! Let's make our first flow.  
 
