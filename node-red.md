@@ -42,4 +42,13 @@ Open a new browser windown and navigate to the User Interface (UI) __localhost:1
 3. Add the beautiful colour
 Drag a __neopixel__ node onto the workspace. It needs minimal setup, just double click and set the number of pixels to the number of LEDs you have (1). Now connect the two nodes and __deploy__. Head to the UI and move the colour picker and marvel at the pretty colours. 
 
-## Actviity 2: A better use for Twitter
+## Activity 2: A better use for Twitter  
+So far so good. Now lets connect to the world via the wonder that is the Internet. Node-RED offer multiple ways to connect to online data soucres, we're going to use Twitter, but you could set it up with your email, or a weather app, your FitBit, Alexa or a news feed.  
+Drag the __twitter__ input node from the __social__ area of the __palette__ (sounds like there's a fight about to start in a digital nightclub). The input node has the connecting dot on the right hand side (the other twitter node is an output).  We're going to make this node search for the #colourchange and then extract the name of a colour from the tweet to send to the neopixel. The tweet will be in this format: _#colourchange blue_.  
+
+Double click the __twitter__ node on your workspace. Click the pencil to the right of the __TwitterID__ section and then click to authenticate. This will take you to twitter where you can input some details to allow node-RED to search and post on your behalf. Back in Node-RED, click add. Now you need to add a term which Node-RED will search for - we'll use #changecolour.  
+
+Connect the __debug__ node to the __twitter__ node and then __deploy__ - we want to see what the output from twitter is so that we can make it a successful input to the __neopixel__. Send a tweet in this format: #changecolour blue and watch the debug output. 
+
+The __neopixel__ node can take inputs of colour names (if they are on [this list](https://html-color-codes.info/color-names/)) 
+
