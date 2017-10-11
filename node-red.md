@@ -50,5 +50,7 @@ Double click the __twitter__ node on your workspace. Click the pencil to the rig
 
 Connect the __debug__ node to the __twitter__ node and then __deploy__ - we want to see what the output from twitter is so that we can make it a successful input to the __neopixel__. Send a tweet in this format: #changecolour blue and watch the debug output. 
 
-The __neopixel__ node can take inputs of colour names (if they are on [this list](https://html-color-codes.info/color-names/)) 
+The __neopixel__ node can take inputs of colour names (if they are on [this list](https://html-color-codes.info/color-names/)), RGB values separated by commas or HEX values (that's what it's getting from the colour picker). The output from the __twitter__ node currently looks like this _#colourchange red_ - we'll need to remove the hastag and the trailing space to make it work.
+
+
 
