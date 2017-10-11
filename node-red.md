@@ -34,7 +34,7 @@ Your flow has been deployed, but it doesn't do very much. In the info area, make
 
 Your **inject** node can be used to send other things through your flow, if you double click the node you can choose a variety of different **payloads**. Try doing the same thing but send a string or number (some text) instead. Remember to press **deploy** before you try to inject your new string.
 
-## Activity 1: Controlling NeoPixels
+## Activity 1: Controlling NeoPixels 
 
 Time for an upgrade - **inject** and **debug** nodes will be really useful when designing your flows, but alone they aren't overly exciting. In this activity, we'll create a simple user interafce that controls the colour of a LED.
 
