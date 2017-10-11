@@ -3,7 +3,11 @@
 Node-RED is a visual tool for gluing together the Internet of Things (IoT). It provides _some_ simplicity when wiring up different web-enabled technologies and software.  
 Want your Twitter feed to control your bedroom lamp? Or you FitBit to switch off the power to your fridge when you've not done enough steps? Or to enable audience members to particpate in live data collection in one of your activities? Node-RED is a tool (not the only tool) that can hep you achieve your wildest IoT dreams.  
 ## Accessing Node-Red
-General Node-RED guidance is to fresh install the latest version onto your Pi, rather than just using the version included with Raspbian.
+General Node-RED guidance is to fresh install the latest version onto your Pi, rather than just using the version included with Raspbian. Head to your terminal and enter:  
+`bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)`  
+You can make Node-RED start at boot (when you switch the Pi on) by typing:  
+`sudo systemctl enable nodered.service`  
+Now head to your Pi's web browser and navigate to localhost:1880 and marvel at the beauty of the graphical interface.  
 ## Creating your first flow
 ### Inputs, Outputs and Debugging
 ## Activity 1: Controlling NeoPixels
