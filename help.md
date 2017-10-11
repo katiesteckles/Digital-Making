@@ -18,6 +18,12 @@ The best link we've found is:
 
 ## Raspberry Pi links
 
+* [Raspberry Pi Foundation Projects (Code Club resource)](https://projects.raspberrypi.org/en/projects). This is a terrific set of resources, though it's not always obvious what you're going to get until you've waded into it.
+
+* One of the trickiest bits of digital making on a Pi is working out which pin is which. The `pinout` command at the terminal now prints you a handy little crib sheet. Oh, happy day.
+
+* You can find out what different HATs and boards use by visiting [pinout.xyz](https://pinout.xyz). NOte that
+
 ### PiCademy
 ### Forums
 ### Pi Jam Slack channel
