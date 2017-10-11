@@ -12,6 +12,8 @@ The best link we've found is:
 
 ...which has an excellent set of reference notes for all the blocks in the current web editor, along with example projects.
 
+* [Micro:Bit MicroPython documentation](https://www.microbit.co.uk/python-guide)
+
 ### Slack channel
 
 ## Raspberry Pi links
