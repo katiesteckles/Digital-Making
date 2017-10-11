@@ -2,11 +2,11 @@
 
 ## Micro:Bit and NeoPixels
 
-A Micro:Bit running [this code](https://www.proto-pic.co.uk/user/SpookyColours.hex).
+A Micro:Bit running [this code](https://www.proto-pic.co.uk/user/SpookyColours.hex) (right-click to download - this is a `.hex` file).
 
-To play with this, you'll need to unfold the `Advanced` blocks in the Micro:Bit editor, then `Add Package` to add the NeoPixel library. `NeoPixel` blocks will now appear.
+To play with this in the blocks editor, you'll need to unfold the `Advanced` blocks, then `Add Package` to add the NeoPixel library. `NeoPixel` blocks will now appear. We got a bit lost from here, and couldn't find good examples to guide us. Can you?
 
-Google the board and you'll find [this page](https://www.proto-pic.co.uk/micropixel-4x8-ws2812b-board-for-bbc-microbit.html), which links to some resources. Most of the good stuff uses MicroPython, which is an alternative approach to writing code for Micro:Bit. You can get to the MicroPython editor by scrolling down the usual Micro:Bit page below the blocks editor you've used so far.
+Google the board and you'll find [this page](https://www.proto-pic.co.uk/micropixel-4x8-ws2812b-board-for-bbc-microbit.html), which links to some resources. Most of the good stuff uses MicroPython, which is an alternative approach to writing code for Micro:Bit. You can get to the MicroPython editor by scrolling down [the usual Micro:Bit page](http://microbit.org/code/) below the blocks editor you've used so far.
 
 There are some really neat Python features to explore in here.
 
@@ -19,7 +19,8 @@ The code is [here](code/analogue_pi.py).
 Things to note:
 
 * Take a close look at the circuit: the Explorer HAT outputs are *weird*. That's buried in the documentation with the blurb:
-> When you turn Explorer HAT/pHAT outputs on ( logic HIGH ) it will sink current to ground.
+> When you turn Explorer HAT/pHAT outputs on (logic HIGH) it will sink current to ground.
+
 Pardon? We worked it out by replugging things more-or-less at random, and we now think we understand what they mean. Sort-of.
 
 * The potentiometer (which is the twisty-turny dial thing) doesn't always respond in the way you might expect. Can you see what we mean?
