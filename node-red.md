@@ -76,4 +76,4 @@ Finally, hook the **change** node to the **neopixel** node and **deploy** - well
 
 Rather than a Neopixel, I thought it might be fun to try wiring up a servo instead and creating something that points or moves in response to a tweet. To do this read the **info** tabe for an output node called **rpi gpio**, the servo will need hooking up to GPIO 2 and setting as Type PWM - play with some different input values from 1-20 to work our what gives you the best movement. You'll need to think about the type of input you want from Twitter (the hastag and the instructions). To make decisions based upon an input you'll also need the **switch** node.
 
-With this kind of power, you can build an IoT device that pets your hamster whilst your on holiday in South Africa.
+With this kind of power, you can build an IoT device that pets your hamster whilst your on holiday in South Africa?
