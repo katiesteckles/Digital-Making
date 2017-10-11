@@ -13,9 +13,14 @@ Node-RED uses the term __flows__ to describe a set of inputs and output linked b
 On the lef tof the screen you'll see your __palette__ which contains all your input, output and function Nodes organised by type. Your __workspace__ is in the centre of the screen, you'll drags nodes here to create flows. And finally on the right, you'll find you __Info panel__, from here you can __deploy__ new flows, find out __info__ about the nodes you are using and __debug__ your flows to check where they are going wrong (that won't happen - promise).  
 ### Inputs, Outputs and Debugging  
 Enough talk! Let's make our first flow.  
+
 Two really useful nodes are __inject__ and __debug__, you can find them in your __palette__ (on the left). inject can be found under inputs and debug under outputs.  Drag them onto the __workspace__.  
+
 Connect the two nodes by clicking and dragging a wire from the dot on the __inject node__ to the dot on the __debug node__. You'll notice the nodes have a little blue dot on them, this means they have yet to be __deployed__. Press the __deplo__ button above the info panel and _voila!_ - nothing happens.  
+
 Your flow hasbeen deployed, but it doesn't do very much. In the info area, make sure that the __debug__ tab is selected. Now press the little button to the left of your inject node and _voila!_ - something happens. A number appears, to be more specific the number of milliseconds that have passed since January 1st 1970 is displayed.  
+
 Your inject node can be used to send other things through your flow, if you double click the node you can choose a variety of different __payloads__. Try doing the same thing but send a string (some text) instead. Remember to press deploy before you try to inject your new string.  
+
 ## Activity 1: Controlling NeoPixels
 ## Actviity 2: A better use for Twitter
