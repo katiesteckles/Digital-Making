@@ -9,7 +9,7 @@ These notes were compiled to assist the 'Digital Making' Skills Day organised by
 * Python
 * [Micro:Bit](microbit.md)
 * [Node-RED](node-red.md) and the outside world
-* Things to explore
+* [Things to explore](explore.md)
 
 ## Background and Continuation Information
 
