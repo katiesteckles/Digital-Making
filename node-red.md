@@ -28,4 +28,9 @@ Your flow hasbeen deployed, but it doesn't do very much. In the info area, make 
 Your inject node can be used to send other things through your flow, if you double click the node you can choose a variety of different __payloads__. Try doing the same thing but send a string (some text) instead. Remember to press deploy before you try to inject your new string.  
 
 ## Activity 1: Controlling NeoPixels
+Time for an upgrade - inject and debug nodes will be really useful when designing your flows, but alone they aren't overly exciting. In this activity, we'll create a simple user interafce that controls the colour of a LED.  
+
+To run this flow you'll need a few nodes that don't come with the basic install. We've installed them for you, but if your doing this tutorial after the event. You can install them easliy through the hamburger menu in Node-RED, click it and then click __Manage Palettes__. Click the __install__ tab and search for `node-red-node-pi-neopixel` and for `node-red-dashboard` then install. New Nodes will show up in the palette - if they don't a restart might be needed. To get the NeoPixels working you'll also need to install some drivers outside of Node-RED. Head to a terminal window and type `curl -sS get.pimoroni.com/unicornhat | bash`.  
+
+
 ## Actviity 2: A better use for Twitter
