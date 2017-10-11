@@ -55,7 +55,9 @@ Connect the __debug__ node to the __twitter__ node and then __deploy__ - we want
 
 The __neopixel__ node can take inputs of colour names (if they are on [this list](https://html-color-codes.info/color-names/)), RGB values separated by commas or HEX values (that's what it's getting from the colour picker). The output from the __twitter__ node currently looks like this _#colourchange red_ - we'll need to remove the hastag and the trailing space to make it work.
 
-Time for a new node, one that changes the content of the message payload sent between nodes. Grab the __change__ node from the **palette*
+Time for a new node, one that changes the content of the message payload sent between nodes. Grab the __change__ node from the **palette**. Hook it up between the **twitter** node and the **debug**. Double click the **change** node and set the **Rules**  to **change** we're going to remove *"#changecolour "* (including the trailing space) and put nothing in its place. **Deploy** and test this new code by sending another tweet. With any luck, your debug output will now show just a colour name.
+
+Finally, hook the **change** node to the 
  
 
 
