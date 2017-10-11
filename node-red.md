@@ -1,6 +1,6 @@
 # Node-RED and the Information Superhighway
 
-## Node_RED in brief
+## Node-RED in brief
 
 Node-RED is a visual tool for gluing together the Internet of Things (IoT). It provides *some* simplicity when wiring up different web-enabled technologies and software.
 
