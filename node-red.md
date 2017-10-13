@@ -49,7 +49,7 @@ Connect the -VE wire to a GND pin on the Pi, connect the DATA wire to GPIO 18 an
 2. Set up your input
 
 Drag the **color picker** node from the palette, it's under the heading **dashboard** and place it on your workspace. The node needs a little setup before it will dance in the way we want it to. Double click the node to open its properties.
-We need to create a place for the color picker to sit, so cick the pencil to the right of the **group** section, then do the same for the **tab** section. This will populate boxes with **default** settings. Click **update** and then **update** again. Back in the **color picker** isettings box, change the size to 6x6, and check the box for **always show picker**. Click **done** then **deploy** the flow.
+We need to create a place for the color picker to sit, so click the pencil to the right of the **group** section, then do the same for the **tab** section. This will populate boxes with **default** settings. Click **update** and then **update** again. Back in the **color picker** isettings box, change the size to 6x6, and check the box for **always show picker**. Click **done** then **deploy** the flow.
 Open a new browser windown and navigate to the User Interface (UI) **localhost:1880/ui** you'll see your colour picker - woop!
 
 3. Add the beautiful colour
