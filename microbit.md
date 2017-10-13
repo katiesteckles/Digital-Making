@@ -25,7 +25,7 @@ There are lots of different ways of achieving this.
 
 #### After that...
 * How could your die show a traditional dice face rather than a number?
-* Can you extend the code to mimix a pair of dice rather than a single die? How about being able to select the number of dice using the buttons?
+* Can you extend the code to mimic a pair of dice rather than a single die? How about being able to select the number of dice using the buttons?
 
 ## Hide & Seek
 
