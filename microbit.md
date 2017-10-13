@@ -29,9 +29,9 @@ There are lots of different ways of achieving this.
 
 ## Hide & Seek
 
-Hidden around Think Lab are a few Micro:Bits, detectable only by (a.) their radio emissions, or (b.) by seeing them *with your eyes*. Make your Micro:Bit act as a radio range finder so you can home in on the hidden devices.
+Micro:Bits have radio modules embedded in them: you can find the blocks by `Add Package` then choosing 'Radio'. The Micro:Bit foundation have a fun-looking activity for turning the little dears into a radio-driven hide-and-seek game
 
-For this, visit [this Micro:Bit page](https://makecode.microbit.org/projects/hot-or-cold) and **start from the section headed 'Hunters'** (we've done the previous part already).
+Visit [this Micro:Bit page](https://makecode.microbit.org/projects/hot-or-cold) and see how you get on.
 
 Note that the later stages of this worksheet get into quite clever data storage ideas.
 
